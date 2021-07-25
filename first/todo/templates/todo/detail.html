@@ -1,0 +1,17 @@
+
+
+{% block content %}
+
+<h2>{{ todo.title }}</h2>
+<br>
+
+<h3>contents: {{ todo.contents }}</h3>
+<br>
+<h3>date: {{ todo.todo_date }}</h3>
+
+<br><br>
+<button value="update" onclick="location.href='update.html'">Update</button>
+<button value="delete" onclick="location.href='delete.html'">Delete</button>
+<button value="index" onclick="location.href='index.html'">MainPage</button>
+
+{% endblock content %}

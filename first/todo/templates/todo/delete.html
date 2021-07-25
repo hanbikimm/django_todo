@@ -1,0 +1,13 @@
+
+
+{% block content %}
+<h2>Delete Todo</h2>
+
+    <form action="{% url 'todo:delete' %}" method="POST">
+
+        <h3>Are you sure to delete {{ todo.title }}?</h3>
+
+        <input type="submit" value="Delete">
+        <button value="index" onclick="location.href='index.html'">MainPage</button>
+    </form>
+{% endblock %}

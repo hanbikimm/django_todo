@@ -1,0 +1,36 @@
+/*시작 페이지 Todo List*/
+h1 {
+    font-size: 45px;
+    color: #b41ef0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+h2{
+    font-size: 30;
+    color: #b41ef0;
+}
+h3{
+    font-size: 25;
+    color: black;
+}
+
+/*버튼*/
+input[type=submit], button {
+    background-color: #b41ef0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+/*입력화면*/
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }

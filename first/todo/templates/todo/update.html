@@ -1,0 +1,19 @@
+
+
+{% block content %}
+<h2>Update Todo</h2>
+
+    <form action="{% url 'todo:update' %}"method="POST">
+
+        <label for="title">title :</label>
+        <input type="text" id="title" name="title" placeholder="Update title">
+        <br>
+
+        <label for="contents">contents :</label>
+        <textarea id="contents" name="contents" placeholder="Update contents">
+        <br>
+
+        <input type="submit" value="Update">
+
+    </form>
+{% endblock %}
